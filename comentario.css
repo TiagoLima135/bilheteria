@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+body{
+        height:100vh;
+}
+
+#logo{
+    height: auto;
+    width: 150px;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    color: white;
+    font-family: 'kdam thmor pro',sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bloco-pai{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+
+
+.filho1{
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    border: 2px solid black;
+}
+.usuario-1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(https://www.socialdub.com/profilepictures/205076/2050760159395408.jpg?x2);
+    background-size: cover;
+}
+p{
+    color: white;
+    width: 600px;
+    height: 100px;
+    font-family: 'kdam thmor pro',sans-serif;
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+.filho2{
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    border: 2px solid black;
+}
+.usuario-2{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(https://www.socialdub.com/profilepictures/205076/2050760159395408.jpg?x2);
+    background-size: cover;
+
+}
+p{
+    color: white;
+    width: 600px;
+    height: 100px;
+    font-family: 'kdam thmor pro',sans-serif;
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.filho3{
+    width: 90%;
+    height: 250px;
+    background-color:black;
+    border: 2px solid black;
+}
+
+.usuario-3{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(https://www.socialdub.com/profilepictures/205076/2050760159395408.jpg?x2);
+    background-size: cover;
+    margin-bottom: 100px;
+
+}
+.texto{
+    color: white;
+    width: 600px;
+    height: 100px;
+    font-family: 'kdam thmor pro',sans-serif;
+    font-size: medium;
+    margin-top: 40px;
+    margin-left: 120px;
+    
+}
+
+footer{
+    height: 100px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    color: #fff;
+    font-family:'kdam thmor pro',sans-serif; ;
+}
+
+
+
+
+
+
+
+
+
+

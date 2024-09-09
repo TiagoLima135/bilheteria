@@ -1,0 +1,96 @@
+*{
+    background-color:black;
+    margin: 0;
+    padding:0;
+
+}
+
+
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#logo{
+    height: auto;
+    width: 150px;
+}
+ 
+
+.actor-cards-scenes{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.cards-content{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 600px;
+    height: 500px;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+}
+
+.scenes-1{
+    background-image: url(https://www.tribunapr.com.br/wp-content/uploads/sites/56/2021/12/14122348/homem-aranha-sem-volta-para-casa-tudo-que-voce-precisa-saber-antes-de-ver-o-filme.jpg);
+  background-size: cover;
+}
+
+.scenes-2{
+    background-image: url(https://images.virgula.me/2021/02/153646223_427589121659602_8686369993839519674_n.jpg);
+    background-size: cover;
+}
+
+.scenes-3{
+    background-image: url(https://pbs.twimg.com/media/FGsIFCNX0AEeLv3?format=jpg&name=small);
+    background-size: cover;
+}
+
+.scenes-4{
+    background-image: url(https://playzuando.com.br/wp-content/uploads/2021/11/20211116-ovicio-homem-aranha-trailer-viloes-555x555-1-555x491.jpg);
+    background-size: cover;
+}
+
+.scenes-5{
+    background-image: url(https://bloximages.newyork1.vip.townnews.com/dentonrc.com/content/tncms/assets/v3/editorial/9/3a/93a9b51c-5e86-11ec-a461-6bd65c7fd772/61bb5e2a872d3.image.jpg?resize=949%2C500);
+    background-size: cover;
+}
+
+.scenes-6{
+    background-image: url(https://i.insider.com/61b784d79daafc0018db95ad?width=700);
+    background-size: cover;
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-round;
+}
+
+span{
+    color: #fff;
+    font-family:'kdam thmor pro',sans-serif; ;
+}
+
+

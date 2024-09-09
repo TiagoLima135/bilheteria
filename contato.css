@@ -1,0 +1,111 @@
+
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+    
+}
+header{
+   height: 80px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+
+
+span{
+    font-family: 'kdam thmor pro',sans-serif;
+    color: white;
+}
+
+h2{
+    height: 80px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    font-family: 'kdam thmor pro',sans-serif;
+    color: white;
+}
+
+.caixa-pai{
+    width: 500px;
+    height: 500px;
+    background-color:black;
+    margin: 100px 0px 500px 700px;
+    border: 5px solid black;
+   border-radius: 5%;
+
+}
+
+.caixa-contato{
+    width: 400px;
+    height: 400px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: black;
+   font-size: medium;
+}
+#email{
+    color: #e6e6e6;
+    width: 400px;
+    height: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+}
+
+#nome{
+    color: #fff;
+    width: 400px;
+    height: 30px;
+    font-family: 'kdam thmor pro',sans-serif;
+    font-size: medium;
+}
+
+
+textarea{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    font-family: 'kdam thmor pro',sans-serif;
+    font-size: medium;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+   background-color: red;
+   color: #fff;
+   padding: 8px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: .2s;
+   font-size: 18px;
+   
+}
+
+
+
+footer{
+    height: 100px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    color: #fff;
+    font-family:'kdam thmor pro',sans-serif; ;
+}
+
